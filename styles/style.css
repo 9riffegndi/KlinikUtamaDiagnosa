@@ -1,0 +1,74 @@
+body {
+    background-color: whitesmoke;
+    font-family: 'Sinter Black', sans-serif;
+}
+
+
+@font-face {
+    font-family: 'Sinter Black';
+    src: url('fonts/Sinter_Black.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+/* Navbar */
+.LogoNavbar {
+    margin-top: -5px;
+    width: 130px;
+}
+
+
+.dropdown-menu a {
+    color: black;
+}
+
+.dropdown-menu :active {
+    color: white;
+    background-color: #d9e689;
+}
+
+
+.nav-item a {
+    color: black;
+}
+
+.nav-item a:hover {
+    color: #0c844e;
+}
+
+/* Navbar */
+
+
+
+/* Caraosel */
+.carousel-control-prev-icon {
+    /* background-color: black; */
+    border-radius: 50%;
+    padding: 20px;
+}
+
+
+.carousel-control-next-icon {
+    /* background-color: black; */
+    border-radius: 50%;
+    padding: 20px;
+}
+
+
+.carousel-control-prev-icon:hover {
+    /* background-color: black; */
+    border-radius: 50%;
+    padding: 25px;
+    transition: 0.3s ease-in;
+}
+
+.carousel-control-next-icon:hover {
+    /* background-color: black; */
+    border-radius: 50%;
+    padding: 25px;
+    transition: 0.3s ease-in;
+}
+
+/* Caraosel */
