@@ -1,23 +1,22 @@
 body {
     margin: 0;
     background-color: whitesmoke;
-    font-family: 'Sinter Black', sans-serif;
-}
-
-
-@font-face {
-    font-family: 'Sinter Black';
-    src: url('fonts/Sinter_Black.otf') format('opentype');
-    font-weight: normal;
-    font-style: normal;
+    font-family: 'Poppins', sans-serif;
 }
 
 
 
 /* Navbar */
+
+#navbarDropdownMenuLink::after {
+    right: 0px;
+    margin: 10px -3px 0px 0px;
+}
+
+
 .LogoNavbar {
     margin-top: -5px;
-    width: 130px;
+    width: 150px;
 }
 
 
@@ -25,14 +24,18 @@ body {
     color: black;
 }
 
+
+
+
+
 .dropdown-menu :active {
-    color: white;
     background-color: #d9e689;
 }
 
 
 .nav-item a {
     color: black;
+    padding: 15px;
 }
 
 .nav-item a:hover {
@@ -40,6 +43,21 @@ body {
 }
 
 
+.nav-item a:hover {
+    background-color: #d9e689;
+}
+
+.nav-item a:active,
+.nav-item a:focus,
+.nav-item a:focus-visible {
+    background-color: #d9e689;
+    transition: 0.4s;
+    border-radius: 1px;
+    display: flex;
+    box-shadow: rgba(0, 0, 0, 0.071) 0px 0px 5px 0px;
+    width: 150px;
+    justify-content: center;
+}
 
 /* Navbar */
 
@@ -161,12 +179,14 @@ body {
     transition: 0.4s;
     cursor: pointer;
 }
+
 /* Section Intres`ting */
 
 /* Section Services */
-.row div a img{
+.row div a img {
     padding: 5px;
 }
+
 .row div a img:hover {
     transform: translateY(-20px);
     transition: 0.4s ease-in-out;
@@ -174,7 +194,7 @@ body {
 }
 
 .row div a img:active {
-    background-color: #00712D   ;
+    background-color: #00712D;
     transform: scale(1.1);
     transition: 0.4s;
     cursor: pointer;
@@ -190,5 +210,8 @@ body {
     transform: scale(1.1);
     transition: 0.3s ease;
 }
+
+
+
 
 /* Section Services */

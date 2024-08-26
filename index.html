@@ -4,7 +4,11 @@
     <!-- Required meta tags -->
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-
+    <!-- font  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <!-- font -->
     <!-- Bootstrap CSS -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
@@ -12,6 +16,9 @@
       integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
       crossorigin="anonymous"
     />
+    <!-- AOS -->
+     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- AOS -->
     <title>Klinik Utama Diagnosa</title>
     <link rel="stylesheet" href="./styles/style.css" />
     <link rel="icon" href="./assets//Logo/Favicon Nobg.png" />
@@ -19,16 +26,16 @@
   <body>
     <!-- Navbar -->
     <nav
-      class="navbar navbar-expand-lg text rounded-3 sticky-top m-3 shadow-lg bg-white navbar-light text-center"
+      class="navbar navbar-expand-lg p-0 text rounded-3 sticky-top m-3 shadow-lg bg-white navbar-light text-center"
     >
-      <div class="container justify-content-center gap-2">
+      <div class="container-fluid justify-content-center gap-2">
         <img
           src="./assets/Logo/Logo Diagnosa No bg.png"
           alt="Logo"
           class="LogoNavbar"
         />
         <button
-          class="navbar-toggler"
+          class="navbar-toggler border-0"
           type="button"
           data-bs-toggle="collapse"
           data-bs-target="#navbarNavDropdown"
@@ -41,11 +48,11 @@
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
           <ul class="navbar-nav m-auto">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <a class="nav-link active d-flex" aria-current="page" href="#">Home</a>
             </li>
             <li class="nav-item dropdown">
               <a
-                class="nav-link dropdown-toggle"
+                class="nav-link dropdown-toggle d-flex"
                 href="#"
                 id="navbarDropdownMenuLink"
                 role="button"
@@ -59,7 +66,7 @@
                 aria-labelledby="navbarDropdownMenuLink"
               >
                 <li>
-                  <a class="dropdown-item" href="#">Radiologi [RONTGEN]</a>
+                  <a class="dropdown-item " href="#">Radiologi [RONTGEN]</a>
                 </li>
                 <li>
                   <a class="dropdown-item" href="#"
@@ -87,7 +94,7 @@
             </li>
             <li class="nav-item dropdown">
               <a
-                class="nav-link dropdown-toggle"
+                class="nav-link dropdown-toggle d-flex"
                 href="#"
                 id="navbarDropdownMenuLink"
                 role="button"
@@ -108,10 +115,10 @@
               </ul>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Kontak</a>
+              <a class="nav-link d-flex" href="#">Kontak</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Tentang Kami</a>
+              <a class="nav-link d-flex " href="#">Tentang Kami</a>
             </li>
           </ul>
         </div>
@@ -120,101 +127,104 @@
     <!-- Navbar -->
 
     <!-- Carousel -->
-    <div
-      id="carouselExampleCaptions"
-      class="carousel slide m-3"
-      data-bs-ride="carousel"
-    >
-      <div class="carousel-indicators">
-        <button
-          type="button"
-          data-bs-target="#carouselExampleCaptions"
-          data-bs-slide-to="0"
-          class="active"
-          aria-current="true"
-          aria-label="Slide 1"
-        ></button>
-        <button
-          type="button"
-          data-bs-target="#carouselExampleCaptions"
-          data-bs-slide-to="1"
-          aria-label="Slide 2"
-        ></button>
-        <button
-          type="button"
-          data-bs-target="#carouselExampleCaptions"
-          data-bs-slide-to="2"
-          aria-label="Slide 3"
-        ></button>
-      </div>
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img
-            src="./assets/Carousel/sz 1200x600 1.png"
-            class="d-block w-100 rounded-3"
-            alt="Banner img"
-          />
-          <div class="carousel-caption d-none d-md-block">
-            <h5>First slide label</h5>
-            <p>Some representative placeholder content for the first slide.</p>
+    <div data-aos="fade-up" data-aos-duration="1000">
+        <div
+          id="carouselExampleCaptions"
+          class="carousel slide m-3"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
           </div>
-        </div>
-        <div class="carousel-item">
-          <img
-            src="./assets/Carousel/sz 1200x600 2.png"
-            class="d-block w-100 rounded-3"
-            alt="Banner img"
-          />
-          <div class="carousel-caption d-none d-md-block">
-            <h5>Second slide label</h5>
-            <p>Some representative placeholder content for the second slide.</p>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img
+                src="./assets/Carousel/sz 1200x600 1.png"
+                class="d-block w-100 rounded-3"
+                alt="Banner img"
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <h5>First slide label</h5>
+                <p>Some representative placeholder content for the first slide.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img
+                src="./assets/Carousel/sz 1200x600 2.png"
+                class="d-block w-100 rounded-3"
+                alt="Banner img"
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Second slide label</h5>
+                <p>Some representative placeholder content for the second slide.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img
+                src="./assets/Carousel/sz 1200x600 3.png"
+                class="d-block w-100 rounded-3"
+                alt="Banner img"
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Third slide label</h5>
+                <p>Some representative placeholder content for the third slide.</p>
+              </div>
+            </div>
           </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev"
+          >
+            <span class="bg-dark p-3 rounded-3" aria-hidden="true">&#10094;</span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next"
+          >
+            <span class="bg-dark p-3 rounded-3" aria-hidden="true">&#10095;</span>
+            <span class="visually-hidden">Next</span>
+          </button>
         </div>
-        <div class="carousel-item">
-          <img
-            src="./assets/Carousel/sz 1200x600 3.png"
-            class="d-block w-100 rounded-3"
-            alt="Banner img"
-          />
-          <div class="carousel-caption d-none d-md-block">
-            <h5>Third slide label</h5>
-            <p>Some representative placeholder content for the third slide.</p>
-          </div>
-        </div>
-      </div>
-      <button
-        class="carousel-control-prev"
-        type="button"
-        data-bs-target="#carouselExampleCaptions"
-        data-bs-slide="prev"
-      >
-        <span class="bg-dark p-3 rounded-3" aria-hidden="true">&#10094;</span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button
-        class="carousel-control-next"
-        type="button"
-        data-bs-target="#carouselExampleCaptions"
-        data-bs-slide="next"
-      >
-        <span class="bg-dark p-3 rounded-3" aria-hidden="true">&#10095;</span>
-        <span class="visually-hidden">Next</span>
-      </button>
     </div>
+
     <!-- Carousel -->
 
-    <!--Marque Logo-->
     <!-- Section Header Marque -->
     <section class="d-flex justify-content-center">
       <h1 class="H1logo text-center text-center" style="font-weight: 900">
         DIAGNOSA
       </h1>
     </section>
+    <!-- Section Header Marque -->
 
-    <!--Marque logo-->
 
     <!-- Section intro -->
-    <div
+    <div data-aos="fade-up" data-aos-duration="2000">
+      <div
       class="m-3 d-flex justify-content-center rounded-3 text-white"
       style="background-color: #b4ddb8"
     >
@@ -306,11 +316,13 @@
         </div>
       </div>
     </div>
+    </div>
 
     <!-- Section intro -->
 
     <!-- Section Intresting -->
-    <div
+    <div data-aos="fade-up" data-aos-duration="2000">
+         <div
       class="mt-5 m-3 justify-content-center rounded-3 p-3 text-dark "
       style="background-color: #E5F9DB" 
     >
@@ -414,146 +426,151 @@
         </div>
       </div>
     </div>
+    </div>
+
     <!-- section Intresting  -->
 
     <!-- Section Services-->
-    <div
-      class="ServicesClinic mt-5 m-3 justify-content-center rounded-3 p-3 text-dark"
-      style="background-color: #9AD0C2"
-    >
-      <h1 class="text-center fs-1 " style="font-weight: 900">
-        Layanan Klinik Utama Diagnosa
-      </h1>
+     <div data-aos="fade-up" data-aos-duration="2000">
       <div
-        class="container mt-5 p-5 rounded-3 shadow"
-        style="background-color: #ECF4D6"
-      >
-        <div class="row">
-          <div class="col-12 col-sm-6 col-md-4 col-lg-6 text-center">
-            <a href="#">
-              <img
-              src="./assets/Icon/1-removebg-preview.png"
-              class="m-3 rounded-3"
-              style="width: 130px"
-              alt="..."
-            />
-            </a>
-            <h1 class="fs-3 fw-bold">Radiologi</h1></h1>
-            <p>
-              Radiologi, pemeriksaan penunjang menggunakan mesin X-Ray.
-            </p>
-          </div>
-          <div class="col-12 col-sm-6 col-md-4 col-lg-4 text-center">
-            <a href="#">
-              <img
-              src="./assets/Icon/2-removebg-preview.png"
-              class="m-3 rounded-3"
-              style="width: 130px"
-              alt="..."
-            />
-            </a>
-            <h1 class="fs-3 fw-bold">EKG</h1>
-            <p>
-              ELECTROCARDIOGRAPHY, medis untuk memeriksa fungsi jantung, termasuk aktivitas kelistrikannya.
-            </p>
-          </div>
-          <div class="col-12 col-sm-6 col-md-4 col-lg-4 text-center">
-            <a href="#">
-              <img
-              src="./assets/Icon/3-removebg-preview.png"
-              class="m-3 rounded-3"
-              style="width: 130px"
-              alt="..."
-            />
-            </a>
-            <h1 class="fs-3 fw-bold">USG ABDOMEN</h1>
-            <p>
-              ULTRASONOGRAPHY abdomen adalah prosedur non-invasif yang menggunakan
-              gelombang ultrasonik untuk mendeteksi penyakit seperti batu empedu,
-              batu ginjal, aneurisma aorta, dan tumor pada hati serta pankreas.
-            </p>
-          </div>
-          <div class="col-12 col-sm-6 col-md-4 col-lg-4 text-center">
-            <a href="#">
-              <img
-              src="./assets/Icon/4-removebg-preview.png"
-              class="m-3 rounded-3"
-              style="width: 130px"
-              alt="..."
-            />
-            </a>
-            <h1 class="fs-3 fw-bold">AUDIOMETRY</h1>
-            <p>
-               Pemeriksaan audiometri dilakukan untuk menguji kemampuan kamu dalam mendengar suara. 
-            </p>
-          </div>
-          <div class="col-12 col-sm-6 col-md-4 col-lg-4 text-center">
-            <a href="#">
-              <img
-              src="./assets/Icon/5-removebg-preview.png"
-              class="m-3 rounded-3"
-              style="width: 130px"
-              alt="..."
-            />
-            </a>
-            <h1 class="fs-3 fw-bold">SPIROMETRY</h1>
-            <p>
-              SPIROMETRY,Pemeriksaan ini menilai jumlah udara yang dapat dihirup dan dihembus paru dalam satuan mililiter, serta arus udara paru dalam satuan mililiter per detik
-            </p>
-          </div>
-          <div class="col-12 col-sm-6 col-md-4 col-lg-4 text-center">
-            <a href="#">
-              <img
-              src="./assets/Icon/6-removebg-preview.png"
-              class="m-3 rounded-3"
-              style="width: 130px"
-              alt="..."
-            />
-            </a>
-            <h1 class="fs-3 fw-bold">MEDICAL CHECK UP</h1>
-            <p>
-              Prosedur yang ditujukan untuk mengetahui kondisi kesehatan secara menyeluruh. 
-            </p>
-          </div>
-          <div class="col-12 col-sm-6 col-md-4 col-lg-4 text-center">
-            <a href="#">
-              <img
-              src="./assets/Icon/7-removebg-preview.png"
-              class="m-3 rounded-3"
-              style="width: 130px"
-              alt="..."
-            />
-            </a>
-            <h1 class="fs-3 fw-bold">LABORATORIUM PATALOGI KLINIK</h1>
-            <p>
-              Pemeriksaan terhadap berbagai spesimen baik berupa darah, feses, cairan tubuh (urine, cairan sendi, cairan pleura, liquor cerebrospinal, cairan ascites, dll), sumsum tulang, maupun berbagai sampel pemeriksaan untuk Kesehatan Lingkungan.
-            </p>
-          </div>
-          <div class="col-12 col-sm-6 col-md-4 col-lg-4 text-center">
-            <a href="#">
-              <img
-              src="./assets/Icon/8-removebg-preview.png"
-              class="m-3 rounded-3"
-              style="width: 130px"
-              alt="..."
-            />
-            </a>
-            <h1 class="fs-3 fw-bold">LABORATORIUM PATALOGI ANATOMI</h1>
-            <p>
-              Laboratorium Patologi Anatomik adalah cabang kedokteran yang mendiagnosis penyakit melalui analisis organ, jaringan, sel, dan cairan tubuh menggunakan metode pemeriksaan kasar, mikroskopik, dan molekuler.
-            </p>
+          class="ServicesClinic mt-5 m-3 justify-content-center rounded-3 p-3 text-dark"
+          style="background-color: #9AD0C2"
+        >
+          <h1 class="text-center fs-1 " style="font-weight: 900">
+            Layanan Klinik Utama Diagnosa
+          </h1>
+          <div
+            class="container mt-5 p-5 rounded-3 shadow"
+            style="background-color: #ECF4D6"
+          >
+            <div class="row">
+              <div class="col-12 col-sm-6 col-md-4 col-lg-6 text-center">
+                <a href="#">
+                  <img
+                  src="./assets/Icon/1-removebg-preview.png"
+                  class="m-3 rounded-3"
+                  style="width: 130px"
+                  alt="..."
+                />
+                </a>
+                <h1 class="fs-3 fw-bold">Radiologi</h1></h1>
+                <p>
+                  Radiologi, pemeriksaan penunjang menggunakan mesin X-Ray.
+                </p>
+              </div>
+              <div class="col-12 col-sm-6 col-md-4 col-lg-4 text-center">
+                <a href="#">
+                  <img
+                  src="./assets/Icon/2-removebg-preview.png"
+                  class="m-3 rounded-3"
+                  style="width: 130px"
+                  alt="..."
+                />
+                </a>
+                <h1 class="fs-3 fw-bold">EKG</h1>
+                <p>
+                  ELECTROCARDIOGRAPHY, medis untuk memeriksa fungsi jantung, termasuk aktivitas kelistrikannya.
+                </p>
+              </div>
+              <div class="col-12 col-sm-6 col-md-4 col-lg-4 text-center">
+                <a href="#">
+                  <img
+                  src="./assets/Icon/3-removebg-preview.png"
+                  class="m-3 rounded-3"
+                  style="width: 130px"
+                  alt="..."
+                />
+                </a>
+                <h1 class="fs-3 fw-bold">USG ABDOMEN</h1>
+                <p>
+                  ULTRASONOGRAPHY abdomen adalah prosedur non-invasif yang menggunakan
+                  gelombang ultrasonik untuk mendeteksi penyakit seperti batu empedu,
+                  batu ginjal, aneurisma aorta, dan tumor pada hati serta pankreas.
+                </p>
+              </div>
+              <div class="col-12 col-sm-6 col-md-4 col-lg-4 text-center">
+                <a href="#">
+                  <img
+                  src="./assets/Icon/4-removebg-preview.png"
+                  class="m-3 rounded-3"
+                  style="width: 130px"
+                  alt="..."
+                />
+                </a>
+                <h1 class="fs-3 fw-bold">AUDIOMETRY</h1>
+                <p>
+                  Pemeriksaan audiometri dilakukan untuk menguji kemampuan kamu dalam mendengar suara. 
+                </p>
+              </div>
+              <div class="col-12 col-sm-6 col-md-4 col-lg-4 text-center">
+                <a href="#">
+                  <img
+                  src="./assets/Icon/5-removebg-preview.png"
+                  class="m-3 rounded-3"
+                  style="width: 130px"
+                  alt="..."
+                />
+                </a>
+                <h1 class="fs-3 fw-bold">SPIROMETRY</h1>
+                <p>
+                  SPIROMETRY,Pemeriksaan ini menilai jumlah udara yang dapat dihirup dan dihembus paru dalam satuan mililiter, serta arus udara paru dalam satuan mililiter per detik
+                </p>
+              </div>
+              <div class="col-12 col-sm-6 col-md-4 col-lg-4 text-center">
+                <a href="#">
+                  <img
+                  src="./assets/Icon/6-removebg-preview.png"
+                  class="m-3 rounded-3"
+                  style="width: 130px"
+                  alt="..."
+                />
+                </a>
+                <h1 class="fs-3 fw-bold">MEDICAL CHECK UP</h1>
+                <p>
+                  Prosedur yang ditujukan untuk mengetahui kondisi kesehatan secara menyeluruh. 
+                </p>
+              </div>
+              <div class="col-12 col-sm-6 col-md-4 col-lg-4 text-center">
+                <a href="#">
+                  <img
+                  src="./assets/Icon/7-removebg-preview.png"
+                  class="m-3 rounded-3"
+                  style="width: 130px"
+                  alt="..."
+                />
+                </a>
+                <h1 class="fs-3 fw-bold">LABORATORIUM PATALOGI KLINIK</h1>
+                <p>
+                  Pemeriksaan terhadap berbagai spesimen baik berupa darah, feses, cairan tubuh (urine, cairan sendi, cairan pleura, liquor cerebrospinal, cairan ascites, dll), sumsum tulang, maupun berbagai sampel pemeriksaan untuk Kesehatan Lingkungan.
+                </p>
+              </div>
+              <div class="col-12 col-sm-6 col-md-4 col-lg-4 text-center">
+                <a href="#">
+                  <img
+                  src="./assets/Icon/8-removebg-preview.png"
+                  class="m-3 rounded-3"
+                  style="width: 130px"
+                  alt="..."
+                />
+                </a>
+                <h1 class="fs-3 fw-bold">LABORATORIUM PATALOGI ANATOMI</h1>
+                <p>
+                  Laboratorium Patologi Anatomik adalah cabang kedokteran yang mendiagnosis penyakit melalui analisis organ, jaringan, sel, dan cairan tubuh menggunakan metode pemeriksaan kasar, mikroskopik, dan molekuler.
+                </p>
+              </div>
+            </div>
           </div>
         </div>
+        <div class="LinkAllServices mt-1 d-flex m-3 rounded-3 p-1 " style="background-color: #4F6F52;">
+            <a class=" m-auto rounded-pill d-flex p-3 text-dark fw-bold shadow " style="text-decoration: none; background-color :#a1d6b2; " href="#">Tampilkan Layanan lainnya</a>
+        </div>
       </div>
-    </div>
-    <div class="LinkAllServices mt-1 d-flex m-3 rounded-3 p-1 " style="background-color: #4F6F52;">
-        <a class=" m-auto rounded-pill d-flex p-3 text-dark fw-bold shadow " style="text-decoration: none; background-color :#a1d6b2; " href="#">Tampilkan Layanan lainnya</a>
-    </div>
     <!-- section Services  -->
 
 
     <!-- section  Medical Check Up Package -->
-     <div id="carouselExampleControls" class="mt-5 carousel slide m-3 rounded-3 p-3 text-center shadow" style="background-color: #E6FF94;" data-bs-ride="carousel">
+    <div data-aos="fade-up" data-aos-duration="2000">
+      <div id="carouselExampleControls" class="mt-5 carousel slide m-3 rounded-3 p-3 text-center shadow" style="background-color: #E6FF94;" data-bs-ride="carousel">
       <div class="carousel-inner rounded-3 d-flexbox">
         <h1 class="text-center fs-1 p-5" style="font-weight: 900">
           Paket Medical Check-UP
@@ -575,11 +592,19 @@
         <span class="bg-dark p-3 rounded-3" aria-hidden="true">&#10095;</span>
       </button>
     </div>
+    </div>
     <!-- section  Medical Check Up Package -->
 
     <!-- Index.js -->
     <script src="./js/index.js"></script>
     <!-- Index js -->
+
+    <!-- AOS -->
+     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+     <script>
+      AOS.init();
+    </script>
+    <!-- AOS -->
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
