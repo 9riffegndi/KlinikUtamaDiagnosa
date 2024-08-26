@@ -338,12 +338,16 @@ body {
 /* footer.css */
 .footer {
     background-color: #ffffff;
-    padding: 16px 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
 }
 
 .container2 {
-    max-width: 1280px;
-    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .grid {
@@ -403,14 +407,10 @@ body {
 
 .contact {
     display: flex;
+    font-size: 15px;
     align-items: center;
     /* background-color: #024426; */
     justify-content: center;
-}
-
-
-.contact p {
-    font-weight: 900;
 }
 
 
