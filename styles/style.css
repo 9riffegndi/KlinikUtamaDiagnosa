@@ -202,7 +202,7 @@ body {
 
 
 .LinkAllServices a {
-    font-size:15px;
+    font-size: 15px;
 }
 
 
@@ -329,3 +329,143 @@ body {
 .section-padding4 {
     padding: 130px 0 200px;
 }
+
+
+
+
+/* Footer */
+/* footer */
+/* footer.css */
+.footer {
+    background-color: #ffffff;
+    padding: 16px 24px;
+}
+
+.container2 {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.grid {
+    display: grid;
+    gap: 32px;
+    grid-template-columns: repeat(1, 1fr);
+}
+
+@media (min-width: 640px) {
+    .grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (min-width: 1024px) {
+    .grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    /* background-color: #d2eaa8; */
+
+}
+
+.logo-wrapper {
+    display: flex;
+    margin-top: 0;
+    /* background-color: #0c844e; */
+    align-items: center;
+}
+
+.logo-wrapper img {
+    display: flex;
+    justify-content: center;
+    margin-top: -20px;
+    height: 50px;
+}
+
+
+.logo-icon {
+    height: 32px;
+}
+
+.logo-icon {
+    height: 32px;
+}
+
+
+
+.info {
+    font-size: 14px;
+}
+
+
+.contact {
+    display: flex;
+    align-items: center;
+    /* background-color: #024426; */
+    justify-content: center;
+}
+
+
+.contact p {
+    font-weight: 900;
+}
+
+
+/* Social media footer */
+
+
+.button {
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    border: none;
+    position: relative;
+    z-index: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+    transition: 0.1s;
+}
+
+.button svg {
+    color: white;
+    width: 30px;
+    height: 30px;
+    z-index: 9;
+}
+
+.button:nth-child(1) {
+    background-color: #E1306C;
+}
+
+.button:nth-child(2) {
+    background: green;
+}
+
+.button:active {
+    transform: scale(0.85);
+}
+
+.button::before {
+    content: "";
+    position: absolute;
+    width: 55px;
+    height: 55px;
+    background-color: #212121;
+    border-radius: 50px;
+    z-index: -1;
+    border: 0px solid rgba(255, 255, 255, 0.411);
+    transition: 0.4s;
+}
+
+.button:hover::before {
+    width: 0px;
+    height: 0px;
+}
+
+/* Social media footer */
