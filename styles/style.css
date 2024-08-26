@@ -1,4 +1,5 @@
 body {
+    margin: 0;
     background-color: whitesmoke;
     font-family: 'Sinter Black', sans-serif;
 }
@@ -139,3 +140,44 @@ body {
 }
 
 /* Carousel */
+
+
+
+
+/* Section Intresting  */
+.row div p img {
+    padding: 5px;
+}
+
+.row div p img:hover {
+    transform: translateY(-20px);
+    transition: 0.4s ease-in-out;
+    cursor: pointer;
+}
+
+.row div p img:active {
+    background-color: #DCFFB7;
+    transform: scale(1.1);
+    transition: 0.4s;
+    cursor: pointer;
+}
+/* Section Intres`ting */
+
+/* Section Services */
+.row div a img{
+    padding: 5px;
+}
+.row div a img:hover {
+    transform: translateY(-20px);
+    transition: 0.4s ease-in-out;
+    cursor: pointer;
+}
+
+.row div a img:active {
+    background-color: #00712D   ;
+    transform: scale(1.1);
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+/* Section Services */
