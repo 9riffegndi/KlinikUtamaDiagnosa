@@ -38,20 +38,22 @@ body {
     padding: 15px;
 }
 
-.nav-item a:hover {
-    color: #0c844e;
-}
-
 
 .nav-item a:hover {
     background-color: #d9e689;
+    transition: 0.6s ease;
+    color: #0c844e;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .nav-item a:active,
 .nav-item a:focus,
 .nav-item a:focus-visible {
     background-color: #d9e689;
-    transition: 0.4s;
+    transition: 0.6s;
     border-radius: 1px;
     display: flex;
     box-shadow: rgba(0, 0, 0, 0.071) 0px 0px 5px 0px;
