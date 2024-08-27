@@ -20,7 +20,7 @@ body {
 }
 
 
-.dropdown-menu a {
+.dropdown-menu  {
     color: black;
 }
 
@@ -442,12 +442,9 @@ body {
 }
 
 .button:nth-child(1) {
-    background-color: #E1306C;
+    background-color: #0c844e;
 }
 
-.button:nth-child(2) {
-    background: green;
-}
 
 .button:active {
     transform: scale(0.85);
