@@ -203,16 +203,6 @@ body {
 }
 
 
-.LinkAllServices a {
-    font-size: 15px;
-}
-
-
-.LinkAllServices :hover {
-    transform: scale(1.1);
-    transition: 0.3s ease;
-}
-
 
 
 
