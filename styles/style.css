@@ -41,9 +41,9 @@ body {
 
 .nav-item a:hover {
     background-color: #d9e689;
-    transition: 0.6s ease;
+    transition: 0.8s ease;
     color: #0c844e;
-    padding: 30px;
+    text-align: center;
     display: flex;
     justify-content: center;
     align-items: center;
