@@ -101,12 +101,11 @@ body {
 
 .H1logo {
     color: #024426;
-    font-size: 180px;
     display: inline-block;
     font-style: italic;
     /* transform: skewX(-20deg); */
     /* Default skew (italic) */
-    transition: transform 2s ease;
+    transition: transform 4s ease;
 }
 
 
@@ -115,7 +114,7 @@ body {
 /* For very small effective screen sizes, corresponding to large zoom levels */
 @media (max-width: 280px) {
     .H1logo {
-        font-size: 35px;
+        font-size: 25px;
         /* Adjusted for very high zoom */
         display: block;
         margin: 0;
@@ -134,7 +133,7 @@ body {
 /* For screens 560px to 1120px (approximation for 125% to 250% zoom) */
 @media (min-width: 560px) and (max-width: 1170px) {
     .H1logo {
-        font-size: 90px;
+        font-size: 50px;
         display: block;
         margin: 0;
     }
@@ -143,7 +142,7 @@ body {
 /* For screens 1120px and above (normal zoom levels) */
 @media (min-width: 1120px) {
     .H1logo {
-        font-size: 180px;
+        font-size: 60px;
         display: block;
         margin: 0;
     }
