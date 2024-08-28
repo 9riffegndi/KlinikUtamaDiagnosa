@@ -331,6 +331,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    height: max-content;
+    min-height: 250px;
     padding: 5px;
 }
 
