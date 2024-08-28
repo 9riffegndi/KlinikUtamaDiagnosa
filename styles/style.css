@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    background-color: #FFFBE6;
+    background-color: #f2eedd;
     font-family: 'Poppins', sans-serif;
 }
 
@@ -332,18 +332,19 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 100px;
+    padding: 5px;
 }
 
 .container2 {
     display: flex;
+    /* background-color: #00712D; */
     justify-content: center;
     align-items: center;
 }
 
 .grid {
     display: grid;
-    gap: 32px;
+    gap: 200px;
     grid-template-columns: repeat(1, 1fr);
 }
 
