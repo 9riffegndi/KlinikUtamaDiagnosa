@@ -35,6 +35,7 @@ body::-webkit-scrollbar-thumb {
     scrollbar-color: var(--sb-thumb-color) var(--sb-track-color);
   }
 }
+
 /* scroll bar */
 
 #navbarDropdownMenuLink::after {
@@ -53,7 +54,7 @@ body::-webkit-scrollbar-thumb {
 
 
 .nav-item a {
-  color: black; 
+  color: black;
   border-radius: 3px;
 }
 
