@@ -1,7 +1,6 @@
 body {
   margin: 0;
-  /* background-color: #f2eedd; */
-  background-color: #f1f1f1;
+  background-color: white;
   font-family: "Poppins", sans-serif;
 }
 
@@ -445,3 +444,5 @@ body::-webkit-scrollbar-thumb {
 }
 
 /* Social media footer */
+
+
