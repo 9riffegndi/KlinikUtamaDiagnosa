@@ -1,7 +1,31 @@
 body {
   margin: 0;
   background-color: white;
+  color: #424242;
   font-family: "Poppins", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  color: #424242;
+}
+
+p {
+  color: #424242;
+}
+
+
+a {
+  color: #424242F;
+}
+
+ul,
+li,
+ol {
+  color: #424242;
 }
 
 /* Navbar */
@@ -444,5 +468,3 @@ body::-webkit-scrollbar-thumb {
 }
 
 /* Social media footer */
-
-
