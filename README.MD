@@ -6,7 +6,9 @@ Website ini memberikan informasi detail tentang layanan kesehatan, fasilitas, da
 <h1>Overview</h1>
 
 - [Home](https://9riffegndi.github.io/KlinikUtamaDiagnosa/)
+
 # Home
+
 <img src="./assets/Overview/home.png" alt="Logo Klinik" width="200"/>
 # Proyek ini dibangun dengan menggunakan teknologi berikut:
 
@@ -15,7 +17,6 @@ Website ini memberikan informasi detail tentang layanan kesehatan, fasilitas, da
 - **JavaScript**: Mengelola interaktivitas dan tampilan dinamis.
 - **Bootstrap 5**: Framework CSS untuk desain responsif dan komponen UI yang modern.
 - **GitHub Pages**: Website ini di-hosting menggunakan GitHub Pages untuk penyebaran yang mudah.
-
 
 # Structure Folder
 
@@ -93,3 +94,7 @@ KlinikUtamaDiagnosa/
   - index.js
 - styles/
   - style.css
+
+## Lisensi
+
+MIT License
