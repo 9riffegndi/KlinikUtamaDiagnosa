@@ -5,11 +5,9 @@ Website ini memberikan informasi detail tentang layanan kesehatan, fasilitas, da
 
 <h1>Overview</h1>
 
-<p ****> 
-Home 
+- [Home](https://github.com/username/repository-name/blob/main/index.html)
+# Home
 <img src="./assets/Overview/home.png" alt="Logo Klinik" width="200"/>
-</p>
-
 # Proyek ini dibangun dengan menggunakan teknologi berikut:
 
 - HTML5: Bahasa markup untuk struktur halaman.
