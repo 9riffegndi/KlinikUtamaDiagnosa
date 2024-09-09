@@ -5,7 +5,7 @@ Website ini memberikan informasi detail tentang layanan kesehatan, fasilitas, da
 
 <h1>Overview</h1>
 
-- [Home](https://github.com/username/repository-name/blob/main/index.html)
+- [Home](https://9riffegndi.github.io/KlinikUtamaDiagnosa/)
 # Home
 <img src="./assets/Overview/home.png" alt="Logo Klinik" width="200"/>
 # Proyek ini dibangun dengan menggunakan teknologi berikut:
