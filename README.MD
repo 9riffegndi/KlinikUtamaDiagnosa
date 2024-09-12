@@ -1,8 +1,4 @@
-# Klinik Utama Diagnosa - Website Company Profile
-
-Selamat datang di website resmi Klinik Utama Diagnosa, sebuah klinik medis lengkap yang menyediakan layanan kesehatan khusus untuk masyarakat.
-Website ini memberikan informasi detail tentang layanan kesehatan, fasilitas, dan cara menghubungi klinik.
-
+# Klinik - Website Company Profile
 <h1>Overview</h1>
 
 - [Home](https://9riffegndi.github.io/KlinikUtamaDiagnosa/)
