@@ -25,7 +25,7 @@ KlinikUtamaDiagnosa/
 - Labpatalogiklinik.html
 - LayananLengkap.html
 - Medicalcheckup.html
-- Radiologi[Rontgen].html
+- Radiologi Rontgen.html
 - Spirometry.html
 - TentangKami.html
 - Treadmill.html
