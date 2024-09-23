@@ -1,6 +1,6 @@
 # Klinik - Website Company Profile
 
-<h1>Page Overview</h2>
+<h2>Page Overview</h2>
 
 - [Home](https://9riffegndi.github.io/KlinikUtamaDiagnosa/)
 
